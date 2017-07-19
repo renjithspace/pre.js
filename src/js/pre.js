@@ -9,6 +9,20 @@
 
 		// Get element
 		let element = document.querySelector(this.el);
+
+		// Preserve
+		if(element) {
+			if(this.newline) {
+				let preNewlines = element.innerHTML.replace(/\n/g, '</br>');
+				element.innerHTML = preNewlines;
+			}
+
+			if(this.spaces) {
+				let preSpaces = element.innerHTML.replace(/\s/g, '&nbsp');
+				element.innerHTML = preSpaces;
+			}
+			return;
+		}
 		
 	}
 }());
