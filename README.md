@@ -19,3 +19,12 @@ bower install pre.js --save
 ```js
 new Pre();
 ```
+
+### Config
+```js
+new Pre({
+    // Options here
+    property: value,
+    ...
+});
+```
