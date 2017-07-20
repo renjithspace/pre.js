@@ -1,0 +1,17 @@
+{
+  "name": "pre.js",
+  "homepage": "https://github.com/renjithvk/pre.js",
+  "authors": [
+    "(renjithvk me@renjithvk.com)"
+  ],
+  "description": "Pure JavaScript plugin for preserves spaces and line breaks",
+  "main": "[\"./src/js/pre.js\"]",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
