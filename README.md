@@ -2,7 +2,7 @@
 Pure JavaScript plugin for preserves spaces and line breaks
 
 
-### Installation
+## Installation
 **Bower**
 ```sh
 bower install pre.js --save
@@ -10,7 +10,7 @@ bower install pre.js --save
 **Direct download** from [latest releases](https://github.com/renjithvk/pre.js/releases)
 
 
-### Usage
+## Usage
 **Include**
 ```js
 <script src="src/js/pre.js"></script>
@@ -20,7 +20,7 @@ bower install pre.js --save
 new Pre();
 ```
 
-### Config
+## Config
 ```js
 new Pre({
     // Options here
@@ -29,7 +29,7 @@ new Pre({
 });
 ```
 
-### Options
+## Options
 | Property | Description | Available values | Default value
 | ------ | ------ | ------ | ------ |
 | el | Pre.js element | Element selector (string) | '.pre' |
