@@ -28,3 +28,10 @@ new Pre({
     ...
 });
 ```
+
+### Options
+| Property | Description | Available values | Default value
+| ------ | ------ | ------ | ------ |
+| el | Pre.js element | Element selector (string) | '.pre' |
+| spaces | Enable/Disable spaces preserver | true, false (boolean) | true |
+| newline | Enable/Disable line breaks preserver | true, false (boolean) | true |
