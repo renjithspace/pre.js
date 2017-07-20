@@ -17,9 +17,5 @@ bower install pre.js --save
 ```
 **Initialize**
 ```js
-new Pre({
-    el: '.description',
-    spaces: false,
-    newline: true
-});
+new Pre();
 ```
