@@ -34,4 +34,4 @@ new Pre({
 |----------|--------------------------------------|---------------------------|---------------|
 | el       | Pre.js element                       | Element selector (string) | '.pre'        |
 | spaces   | Enable/Disable spaces preserver      | true, false(boolean)      | false          |
-| newline  | Enable/Disable line breaks preserver | true, false (boolean)     | true          |
+| newlines  | Enable/Disable line breaks preserver | true, false (boolean)     | true          |

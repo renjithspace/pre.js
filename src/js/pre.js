@@ -6,7 +6,7 @@
 		this.options = {
 			el: '.pre',
 			spaces: false,
-			newline: true,
+			newlines: true,
 		};
 
 		// Replace default options with arguments
@@ -28,7 +28,7 @@
 
 		// Preserve
 		if(element) {
-			if(this.options.newline) {
+			if(this.options.newlines) {
 				let preNewlines = element.innerHTML.replace(/\n/g, '</br>');
 				element.innerHTML = preNewlines;
 			}
