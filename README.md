@@ -13,7 +13,7 @@ bower install pre.js --save
 ## Usage
 **Include**
 ```js
-<script src="src/js/pre.js"></script>
+<script src="dist/js/pre.js"></script>
 ```
 **Initialize**
 ```js
