@@ -1,23 +1,39 @@
 
 (function() {
-	this.Pre = function(options = {}) {
+	this.Pre = function() {
 
 		// Default options
-		this.el = (options.el) ? options.el : '.pre';
-		this.spaces = (options.spaces == undefined) ? false : (options.spaces);
-		this.newline = (options.newline == undefined) ? true : (options.newline);
+		this.options = {
+			el: '.pre',
+			spaces: false,
+			newline: true,
+		};
+
+		// Replace default options with arguments
+		if (arguments.length && typeof arguments[0] === 'object') {
+			optionsReplacer(this.options, arguments[0]);
+		}
+
+		// Default options replacer
+		function optionsReplacer(options, args) {
+			for (let arg in args) {
+				if ( options.hasOwnProperty(arg) ) {
+					options[arg] = args[arg];
+				}
+			}
+		}
 
 		// Get element
-		let element = document.querySelector(this.el);
+		let element = document.querySelector(this.options.el);
 
 		// Preserve
 		if(element) {
-			if(this.newline) {
+			if(this.options.newline) {
 				let preNewlines = element.innerHTML.replace(/\n/g, '</br>');
 				element.innerHTML = preNewlines;
 			}
 
-			if(this.spaces) {
+			if(this.options.spaces) {
 				let preSpaces = element.innerHTML.replace(/\s/g, '&nbsp');
 				element.innerHTML = preSpaces;
 			}
