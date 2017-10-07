@@ -4,7 +4,7 @@
 
 		// Default options
 		this.el = (options.el) ? options.el : '.pre';
-		this.spaces = (options.spaces == undefined) ? true : (options.spaces);
+		this.spaces = (options.spaces == undefined) ? false : (options.spaces);
 		this.newline = (options.newline == undefined) ? true : (options.newline);
 
 		// Get element
@@ -23,6 +23,5 @@
 			}
 			return;
 		}
-		
 	}
 }());
