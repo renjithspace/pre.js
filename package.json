@@ -1,0 +1,23 @@
+{
+  "name": "pre.js",
+  "version": "1.0.0",
+  "description": "Pure JavaScript plugin for preserves spaces and line breaks",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renjithvk/pre.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renjithvk/pre.js/issues"
+  },
+  "homepage": "https://github.com/renjithvk/pre.js#readme"
+}
