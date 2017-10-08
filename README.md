@@ -3,6 +3,10 @@ Pure JavaScript plugin for preserves spaces and line breaks
 
 
 ## Installation
+**NPM**
+```sh
+npm install pre.js --save
+```
 **Bower**
 ```sh
 bower install pre.js --save
