@@ -39,3 +39,11 @@ new Pre({
 | el       | Pre.js element                       | Element selector (string) | '.pre'        |
 | spaces   | Enable/Disable spaces preserver      | true, false(boolean)      | false          |
 | newlines  | Enable/Disable line breaks preserver | true, false (boolean)     | true          |
+
+## Contribution
+1. Fork and clone the repository
+2. Install development dependencies ```npm install```
+3. Contribute
+4. Build ```npm run build```
+5. Commit and push
+6. Do pull request
