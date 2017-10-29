@@ -2,7 +2,7 @@
   "name": "pre.js",
   "version": "1.4.0",
   "description": "Pure JavaScript plugin for preserves spaces and line breaks",
-  "main": "index.js",
+  "main": "dist/js/pre.js",
   "directories": {
     "test": "test"
   },
