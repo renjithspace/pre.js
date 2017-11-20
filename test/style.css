@@ -25,3 +25,15 @@ h3 {
 h3:first-child {
     margin-top: 10px;
 }
+
+button {
+    background: #333;
+    color: #fff;
+    line-height: 40px;
+    border-radius: 3px;
+    padding: 0 20px;
+    border: none;
+    text-transform: uppercase;
+    outline: none !important;
+    cursor: pointer;
+}
