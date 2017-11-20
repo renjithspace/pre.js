@@ -24,7 +24,7 @@
 		}
 
 		// Get element
-		let element = document.querySelector(this.options.el);
+		var element = document.querySelector(this.options.el);
 
 		// Preserve
 		if(element) {
